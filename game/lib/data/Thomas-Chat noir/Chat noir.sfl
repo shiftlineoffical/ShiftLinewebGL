@@ -1,0 +1,31 @@
+meta("Chat noir",Chat noir.ogg,200)
+artist("Thomas Dingwall a.k.a. td")
+url("https://youtu.be/OwaTjZtEW3Q")
+demostart(49.8)
+demoend(68.4)
+genre("inst")
+//98小節目からBPM150
+diff(0,1.2,""){
+
+
+}
+
+diff(1,3.8,""){
+
+
+}
+
+diff(2,4.0,""){
+
+
+}
+
+diff(3,5.1,""){
+
+
+}
+
+diff(4,6.1,""){
+
+
+}

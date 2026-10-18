@@ -1,0 +1,30 @@
+meta("BLACK DIAMOND",BLACK DIAMOND.ogg,187)
+artist("Thomas Dingwall a.k.a. td")
+demostart(51.75)
+demoend(78)
+genre("Vocal")
+
+diff(0,1.2,""){
+
+
+}
+
+diff(1,3.8,""){
+
+
+}
+
+diff(2,4.0,""){
+
+
+}
+
+diff(3,5.1,""){
+
+
+}
+
+diff(4,6.1,""){
+
+
+}

@@ -1,0 +1,31 @@
+meta("花天月地 ~ Flowers Blooming In Moonlight",花天月地 ~ Flowers Blooming In Moonlight.ogg,180)
+artist("Zuxin with IanMirror")
+genre("inst")
+demostart(86.317)
+demoend(131.214)
+url("https://www.youtube.com/watch?v=eqvFUYYZwKY")
+
+diff(0,2.0,"刻みネギ(クラウドームP)",){
+
+
+}
+
+diff(1,3.2,"刻みネギ(クラウドームP)",){
+
+
+}
+
+diff(2,5.4,"刻みネギ(クラウドームP)",){
+
+
+}
+
+diff(3,6.1,"刻みネギ(クラウドームP)",){
+
+
+}
+
+diff(4,8.4,"刻みネギ(クラウドームP)",){
+
+
+}

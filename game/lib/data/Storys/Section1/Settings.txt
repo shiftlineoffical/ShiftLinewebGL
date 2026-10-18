@@ -1,0 +1,37 @@
+
+en = {
+["series.prologue"] = "Prologue",
+["background.prologue"] = "Prologue",
+["place.prologue.1"] = "1",
+["place.prologue.2"] = "2",
+["place.prologue.3"] = "3",
+["prologue.1"] = "0-1",
+["prologue.2"] = "0-2",
+["prologue.3"] = "0-3",
+}
+
+language.addMulti("en", "en", true)
+
+ja = {
+["series.prologue"] = "プロローグ",
+["background.prologue"] = "プロローグ",
+["place.prologue.1"] = "1",
+["place.prologue.2"] = "2",
+["place.prologue.3"] = "3",
+["prologue.1"] = "0-1",
+["prologue.2"] = "0-2",
+["prologue.3"] = "0-3",
+}
+
+language.addMulti("jp", "ja", true)
+
+storymanager.AddBackground("prologue", language.get("story.background.prologue"), "1.png")
+storymanager.AddPlace("prologue", "prologue_1", language.get("story.place.prologue.1"), -200, -300)
+storymanager.AddPlace("prologue", "prologue_2", language.get("story.place.prologue.2"), -100, -300)
+storymanager.AddPlace("prologue", "prologue_3", language.get("story.place.prologue.3"), 0, -300)
+
+storymanager.AddStory("prologue_1", "prologue_story_1", "C-1", language.get("story.prologue.1"), "story/1.sfs")
+storymanager.AddStory("prologue_2", "prologue_story_2", "C-2", language.get("story.prologue.2"), "story/2.sfs", "prologue_story_1", 1, 0)
+storymanager.AddStory("prologue_3", "prologue_story_3", "C-3", language.get("story.prologue.3"), "story/3.sfs", "prologue_story_2", 2, 0)
+
+storymanager.AddSeries("story_prologue", "#story.series.prologue", {"prologue_story_1", "prologue_story_2", "prologue_story_3"})

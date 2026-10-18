@@ -1,0 +1,31 @@
+meta("WINDING ROAD",WINDING ROAD.ogg,187)
+artist("Thomas Dingwall a.k.a. td")
+demostart(0.65)
+demoend(21.175)
+genre("inst")
+//187-163(From measure 15)-187(From measure 17 beat 3)-163(From measure 63)-187(From measure 65)-163(From measure 122)
+
+diff(0,1.2,""){
+
+
+}
+
+diff(1,3.8,""){
+
+
+}
+
+diff(2,4.0,""){
+
+
+}
+
+diff(3,5.1,""){
+
+
+}
+
+diff(4,6.1,""){
+
+
+}

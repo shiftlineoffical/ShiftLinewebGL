@@ -1,0 +1,38 @@
+関数	戻り値
+network.on()	true / false
+network.send()	true / false, error
+network.createRoomID()	string
+network.createExternalRoomID()	string
+network.parseRoomID()	roomID / nil, nil, error
+network.host()	true / false
+network.join()	true / false
+network.update()	なし (nil)
+network.close()	なし (nil)
+network.isConnected()	boolean
+network.getPing()	number
+network.getError()	string / nil
+network.getPlayerID()	string / nil
+network.getRemotePlayerID()	string / nil
+network.getMode()	string
+network.getRoomID()	string / nil
+network.getPartyCount()　int
+
+
+関数　　戻り値の内容
+network.on()	イベント登録が成功したか
+network.send()	パケット送信が成功したか
+network.createRoomID()	新しく生成したRoomID
+network.createExternalRoomID()	新しく生成したRoomID
+network.parseRoomID()	入力されたRoomID（正しい場合）
+network.host()	ホスト接続に成功したか
+network.join()	Roomへの接続に成功したか
+network.update()	何も返さない
+network.close()	何も返さない
+network.isConnected()	現在接続されているか
+network.getPing()	現在のPing値
+network.getError()	最後に発生したエラー内容
+network.getPlayerID()	自分のPlayerID
+network.getRemotePlayerID()	相手のPlayerID
+network.getMode()	現在の接続モード（offline / host / client）
+network.getRoomID()	現在参加しているRoomID
+network.getPartyCount()　参加人数
